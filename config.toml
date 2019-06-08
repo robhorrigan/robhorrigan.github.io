@@ -1,197 +1,43 @@
-# Page settings
-
-baseurl = "https://robhorrigan.github.io/"
+baseURL = "//robhorrigan.github.io/"
 languageCode = "en-us"
-title = "Rob Horrigan - Full Stack Developer"
-theme = "hugo-orbit-theme"
+title = "Rob Horrigan | Full Stack Developer"
+theme = "hugo-lodi-theme"
 googleAnalytics = "UA-89428345-1"
 
-# Do not build files for websites.
-disableKinds=["RSS","404","sitemap"]
-
 [params]
+    theme_color = "#3A7CA5"
+    description = "Portfolio of Rob Horrigan, Full Stack Developer"
+    description_photo = "portfolio.jpg"
+    favicon = "favicon.png"
+    logo = "logo.png"
+    email = "roberthorrigan@gmail.com"
+    # facebook = "lex.collado"
+    twitter = "rob_horrigan"
+    # dribbble = "alexiscollado"
+    linkedin = "//www.linkedin.com/in/roberthorrigan"
+    medium = "rob_horrigan"
+    github = "robhorrigan"
+    # googlescholar = "https://scholar.google.com/citations?user=XXXXXXXXXXXXXXXXXXXXX=en"
 
-# Meta
-    description = "Full stack software engineer experienced in building and deploying modern web applications."
-    author = "Rob Horrigan"
+[params.nav]
+    enable = true
 
-# Theme styles
+[params.hero]
+    enable = true
+    avatar = "IMG_3759_small.jpg"
+    subtitle = "Hi! I'm Rob, a Full Stack Developer and Technologist from Austin, TX."
+    hero_right = ["**Currently a Tech Lead at The Knot Worldwide in Austin. Previously doing rapid MVP prototyping for startups in New York City.**", "My passion is using technology to help people solve problems. I enjoy working through the entire product lifecycle, from ideation to launch.", "I have a background in software engineering, primarily as a full-stack developer building web experiences using the latest technologies.",  "I'm always on the look-out for the latest technology trends and enjoy connecting with others.", "Feel free to reach out with opportunities."]
+    resume = "ResumeHorrigan.pdf"
 
-    # The original template comes with 6 colour schemes. You may choose styles below.
-    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
-    # are available. Also the source LESS files are included so
-    # it’s quick and easy to change the styling and colour scheme.
+# [params.process]
+#     enable = true
+#     title = "My Process"
+#     subtitle = "Full Process Design"
 
-    styles = "styles-6.css"
+# [params.case_studies]
+#     enable = true
+#     title = "Case Studies"
+#     subtitle = "Selected Works"
 
-# Sidebar sections
-
-    # Profile section
-    [params.profile]
-        name = "Rob Horrigan"
-        tagline = "Full Stack Developer"
-        avatar = "profile.png"
-
-    # Contact section
-    [params.contact]
-        enable = true
-
-        [[params.contact.list]]
-        class = "linkedin"
-        icon = "fa-linkedin"
-        url = "//www.linkedin.com/in/roberthorrigan"
-        title = "/in/roberthorrigan"
-
-        [[params.contact.list]]
-        class = "github"
-        icon = "fa-github"
-        url = "//github.com/robhorrigan"
-        title = "github.com/robhorrigan"
-
-        [[params.contact.list]]
-        class = "twitter"
-        icon = "fa-twitter"
-        url = "//twitter.com/rob_horrigan"
-        title = "@rob_horrigan"
-
-    # Education section
-    [params.education]
-        enable = true
-        title = "Education"
-
-        [[params.education.list]]
-        degree = "MSc in Management"
-        college = "New York University"
-        dates = "2014 - 2015"
-
-        [[params.education.list]]
-        degree = "Web Development"
-        college = "The Flatiron School"
-        dates = "2014"
-
-        [[params.education.list]]
-        degree = "BSc in Economics"
-        college = "Florida State University"
-        dates = "2005 - 2009"
-
-    # Interests section
-    [params.interests]
-        enable = true
-        title = "Interests"
-
-        [[params.interests.list]]
-        interest = "Yoga"
-
-        [[params.interests.list]]
-        interest = "Snowboarding"
-
-        [[params.interests.list]]
-        interest = "Biking"
-
-# Main body sections
-
-    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
-
-    # Summary section
-    [params.summary]
-        enable = true
-        icon = "fa-user"
-        title = "Career Profile"
-        summary = "I’m a full stack software engineer experienced in building and deploying modern web applications. I enjoy working across all levels of the modern web development stack and am constantly seeking to learn and master the latest web technologies."
-
-    # Experiences section
-    [params.experiences]
-        enable = true
-        icon = "fa-briefcase"
-        title = "Experience"
-
-        [[params.jobs.list]]
-        position = "Software Engineer"
-        dates = "OCT 2016 - PRESENT"
-        company = "XO Group, Austin, TX"
-        details = "XO Group Inc. helps people navigate and enjoy life's biggest moments, together."
-
-        [[params.jobs.list]]
-        position = "Full Stack Developer"
-        dates = "APR 2015 - OCT 2016"
-        company = "Clevertech, Remote"
-        details = "Crafted high-quality web applications for early-stage startups."
-
-        [[params.jobs.list]]
-        position = "Ruby Developer"
-        dates = "OCT 2014 - MAR 2015"
-        company = "Unite Us, New York, NY"
-        details = "SaaS web application aimed at providing coordinated care solutions to over 100,000 veterans across the country."
-
-    # Projects section
-    [params.projects]
-        enable = true
-        icon = "fa-archive"
-        title = "Projects"
-        intro = "A sample of some of the projects I've worked on:"
-
-        [[params.projects.list]]
-        title = "Rockets of Awesome"
-        url = "https://www.rocketsofawesome.com"
-        tagline = "Subscription-based children's apparel.<br/>Technologies: **Node, React, Redux, PostgreSQL, Webpack, CSS, HTML**"
-
-        [[params.projects.list]]
-        title = "GreenRush"
-        url = "https://www.greenrush.com"
-        tagline = "On-Demand Medicinal Cannabis Delivery.<br/>Technologies: **Node, AngularJS, MongoDB, AWS, LESS, New Relic, AWS**"
-
-        [[params.projects.list]]
-        title = "Groovwith.me"
-        url = "https://github.com/laxrph10/teamplaylister"
-        tagline = "Social Playlist Builder for Spotify.<br/>Technologies: **Ruby, Rails, CSS, HAML**"
-
-        [[params.projects.list]]
-        title = "4DaysOut.com"
-        url = "https://github.com/laxrph10/teamdatenight"
-        tagline = "Dinner and a Movie Date Planner.<br/>Technologies: **Ruby, Rails, CSS, HAML**"
-
-    # Skills section
-    [params.skills]
-        enable = true
-        icon = "fa-rocket"
-        title = "Skills & Proficiency"
-
-        [[params.skills.list]]
-        skill = "Javascript"
-        level = "98%"
-
-        [[params.skills.list]]
-        skill = "Node.js"
-        level = "96%"
-
-        [[params.skills.list]]
-        skill = "HTML5 & CSS"
-        level = "95%"
-
-        [[params.skills.list]]
-        skill = "React"
-        level = "95%"
-
-        [[params.skills.list]]
-        skill = "Angular"
-        level = "93%"
-
-        [[params.skills.list]]
-        skill = "Ruby on Rails"
-        level = "75%"
-
-        [[params.skills.list]]
-        skill = "Sketch & Photoshop"
-        level = "60%"
-
-    # Footer section
-
-    # The original template is released under the Creative Commons Attribution 3.0 License.
-    # Please keep the original attribution link when using for your own project.
-    # If you'd like to use the template without the attribution,
-    # you can check out other license options via template author's website: themes.3rdwavemedia.com
-    #
-    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
-
-    [params.footer]
-        copyright = "Rob Horrigan"
+[params.footer]
+    enable = false
