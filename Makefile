@@ -1,5 +1,5 @@
 
 publish:
-	sh ./scripts/publish_to_ghpages.sh
+	sh ./scripts/publish.sh
 
 .PHONY: publish
