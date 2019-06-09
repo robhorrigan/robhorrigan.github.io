@@ -8,7 +8,7 @@ disableKinds=["RSS","sitemap","taxonomy","taxonomyTerm"]
 
 [params]
     theme_color = "#3A7CA5"
-    description = "Portfolio of Rob Horrigan, Full Stack Developer"
+    description = "Portfolio of Rob Horrigan - Full Stack Developer and Technologist from Austin, TX"
     description_photo = "portfolio.jpg"
     favicon = "favicon.png"
     logo = "logo.png"
