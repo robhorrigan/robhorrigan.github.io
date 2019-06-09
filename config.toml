@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Rob Horrigan | Full Stack Developer"
 theme = "hugo-lodi-theme"
 googleAnalytics = "UA-89428345-1"
-
+publishDir = "docs"
 disableKinds=["RSS","taxonomy","taxonomyTerm"]
 
 [params]
