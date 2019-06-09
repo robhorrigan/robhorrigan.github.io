@@ -10,6 +10,9 @@ then
     exit 1;
 fi
 
+echo "Pull latest from build"
+git pull
+
 echo "Deleting old build"
 rm -rf docs
 mkdir docs
