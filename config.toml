@@ -1,6 +1,6 @@
-baseURL = "//robhorrigan.github.io/"
+baseURL = "//www.robhorrigan.com/"
 languageCode = "en-us"
-title = "Rob Horrigan | Full Stack Developer"
+title = "Rob Horrigan | Full-Stack Developer"
 theme = "hugo-lodi-theme"
 googleAnalytics = "UA-89428345-1"
 publishDir = "docs"
@@ -8,7 +8,7 @@ disableKinds=["RSS","404","taxonomy","taxonomyTerm"]
 
 [params]
     theme_color = "#3A7CA5"
-    description = "Portfolio of Rob Horrigan - Full Stack Developer and Technologist from Austin, TX"
+    description = "Portfolio of Rob Horrigan | Full-Stack Developer and Technologist from Austin, TX"
     description_photo = "portfolio.jpg"
     favicon = "favicon.png"
     logo = "logo.png"
