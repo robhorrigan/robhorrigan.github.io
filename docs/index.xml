@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rob Horrigan | Full Stack Developer</title>
-    <link>robhorrigan.github.io/</link>
+    <link>robhorrigan.github.io/personal-site/</link>
     <description>Recent content on Rob Horrigan | Full Stack Developer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="robhorrigan.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="robhorrigan.github.io/personal-site/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

@@ -1,4 +1,4 @@
-baseURL = "robhorrigan.github.io/"
+baseURL = "robhorrigan.github.io/personal-site/"
 publishDir = "docs"
 languageCode = "en-us"
 title = "Rob Horrigan | Full Stack Developer"
