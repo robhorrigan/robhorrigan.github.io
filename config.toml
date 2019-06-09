@@ -13,13 +13,10 @@ disableKinds=["RSS","taxonomy","taxonomyTerm"]
     favicon = "favicon.png"
     logo = "logo.png"
     email = "roberthorrigan@gmail.com"
-    # facebook = "lex.collado"
     twitter = "rob_horrigan"
-    # dribbble = "alexiscollado"
     linkedin = "//www.linkedin.com/in/roberthorrigan"
     medium = "rob_horrigan"
     github = "robhorrigan"
-    # googlescholar = "https://scholar.google.com/citations?user=XXXXXXXXXXXXXXXXXXXXX=en"
 
 [params.nav]
     enable = true
