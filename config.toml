@@ -4,7 +4,7 @@ title = "Rob Horrigan | Full Stack Developer"
 theme = "hugo-lodi-theme"
 googleAnalytics = "UA-89428345-1"
 publishDir = "docs"
-disableKinds=["RSS","taxonomy","taxonomyTerm"]
+disableKinds=["RSS","404","taxonomy","taxonomyTerm"]
 
 [params]
     theme_color = "#3A7CA5"
