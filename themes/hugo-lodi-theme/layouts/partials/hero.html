@@ -1,8 +1,8 @@
 <section style="padding-top: 120px;" id="scroll-element" data-scroll-index="0">
     <div class="hero">
         <div class="hero-left">
-            <img src="{{ .Site.BaseURL }}img/{{ .Site.Params.Hero.Avatar }}" alt="photo of Rob Horrigan" style="max-width: 50%; border-radius: 50%; ">
-            <h2 class="subtitle">{{ .Site.Params.Hero.subtitle }}</h2>
+            <img src="{{ .Site.BaseURL }}img/{{ .Site.Params.Hero.Avatar }}" alt="{{ .Site.Title }}" title="{{ .Site.Title }}" style="max-width: 50%; border-radius: 50%; ">
+            <h1 class="subtitle">{{ .Site.Params.Hero.subtitle }}</h1>
             <div class="icons">
                 {{ if isset .Site.Params "email" }}
                 <a href="mailto:{{ .Site.Params.Email }}">
@@ -102,7 +102,7 @@
                 {{ if isset .Site.Params "medium" }}
                 <a href="https://medium.com/@{{ .Site.Params.Medium }}" target="blank">
                     <!--?xml version="1.0" encoding="UTF-8"?-->
-                    <img src="{{ .Site.BaseURL }}img/medium.png" style="width: 16px;" alt="Medium logo">
+                    <img src="{{ .Site.BaseURL }}img/medium.png" style="width: 16px;" alt="Medium logo" title="Medium logo">
                 </a>
                 {{ end }}
                 {{ if isset .Site.Params "github" }}
@@ -135,7 +135,7 @@
             </div>
             {{ if isset .Site.Params.Hero "resume" }}
             <a href="{{ .Site.BaseURL }}{{ .Site.Params.Hero.Resume }}" target="blank" class="download-resume" onclick="ga('send', {hitType: 'event',eventCategory: 'CTA',eventAction: 'download'});">
-                <img style="position: relative;top: 1.8px;padding-right: 6px;" src="svg/dl-resume.svg" alt="Resume icon">
+                <img style="position: relative;top: 1.8px;padding-right: 6px;" src="svg/dl-resume.svg" alt="{{ .Site.Params.Hero.Resume }}" title="{{ .Site.Params.Hero.Resume }}">
                 Download Resume</a>
             {{ end }}
         </div>
