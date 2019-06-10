@@ -1,4 +1,4 @@
-baseURL = "https//www.robhorrigan.com/"
+baseURL = "https://www.robhorrigan.com/"
 languageCode = "en-us"
 title = "Rob Horrigan | Full-Stack Developer"
 theme = "hugo-lodi-theme"
