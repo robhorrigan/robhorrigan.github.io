@@ -25,7 +25,7 @@ disableKinds=["RSS","404","taxonomy","taxonomyTerm"]
     enable = true
     avatar = "avatar.jpg"
     subtitle = "Hi! I'm Rob, a Full-Stack Developer and Technologist from Austin, TX."
-    hero_right = ["**Currently a Tech Lead at [The Knot Worldwide](https://www.theknotww.com/) in Austin. Previously doing rapid MVP prototyping for startups in New York City.**", "My passion is using technology to help people solve problems. I enjoy working through the entire product lifecycle, from ideation to launch.", "I have a background in software engineering, primarily as a full-stack developer building web experiences using the latest technologies.",  "I'm always on the look-out for the latest technology trends and enjoy connecting with others.", "Feel free to [reach out](https://www.linkedin.com/in/roberthorrigan/) with opportunities."]
+    hero_right = ["**Currently a Tech Lead at [The Knot Worldwide](https://www.theknotww.com/) in Austin. Previously doing rapid MVP prototyping for startups in New York City.**", "My passion is using technology to help people solve problems. I enjoy working through the entire product lifecycle, from ideation to launch.", "I have a background in software engineering, primarily as a full-stack developer building web experiences using the latest technologies.",  "I'm always on the look-out for the latest technology trends and enjoy connecting with others.", "Feel free to [reach out](https://www.linkedin.com/in/roberthorrigan/) with interesting opportunities."]
     resume = "ResumeHorrigan.pdf"
 
 # [params.process]
