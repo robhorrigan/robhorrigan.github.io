@@ -5,6 +5,11 @@
 
 ## Getting Started
 
+Install Hugo
+```
+brew install hugo
+```
+
 Run local development server
 ```
 make run
