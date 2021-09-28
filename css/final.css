@@ -180,7 +180,8 @@ section {
 }
 
 .hero-left {
-  width: 400px;
+  width: 420px;
+  padding-top: 25px;
 }
 
 .hero-right {
